@@ -2,7 +2,7 @@
 # Project Title
 Minting and burn token
 
-## Description
+## Description..
 
 This code defines a Solidity contract named "MyToken" that represents a simple token system. The contract has three public variables: tokenname, tokenAbbrv, and totalSupply. It also has a mapping variable named balances that maps addresses to uints, representing the balance of each address.
 
@@ -10,13 +10,13 @@ The contract has two functions: mint and burn. The mint function increases the t
 
 ## Getting Started
  
-### Installing
+### Installing..
 
 * Copy the code from GitHub repository file called my_token
 * Open remix ide and click on create new file and paste the code with the extension .sol
 
 
-### Executing program
+### Executing program..
 
 * Compile the code  from the compiler section
 * Deploy the code 
@@ -29,6 +29,6 @@ Aniket Singh
 
 
 
-## License
+## License..
 
 This project is licensed under the MIT License - see the LICENSE.md file for details
