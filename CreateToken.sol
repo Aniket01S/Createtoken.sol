@@ -7,17 +7,17 @@ contract MyToken {
     string public symbol= "RYZ";
     uint256 public totalSupply= 0;
 
-//mapping variable here
+ //mapping variable here
     mapping(address => uint256) public balances;
 
    
-//mint function
+ //mint function
     function mint(address _to, uint256 _value) public {
         totalSupply += _value;
         balances[_to] += _value;
     }
 
-//burn function
+ //burn function
     function burn(address _from, uint256 _value) public {
         require(balances[_from] >= _value, "Insufficient balance");
         totalSupply -= _value;
